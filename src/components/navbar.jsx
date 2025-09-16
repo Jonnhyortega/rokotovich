@@ -15,7 +15,7 @@ const SECTIONS = [
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const { direction, isScrollingDown, isScrollingUp, y } = useScrollDirection(10, 0);
-  const collapsed = (direction === "down" && y > 80) || (isScrollingDown && y > 80);
+  const collapsed = (direction === "down" && y > 10) || (isScrollingDown && y > 80);
 
 
   useEffect(() => {

@@ -7,7 +7,7 @@ export default function Hero({
   subtitle = "Asesoramiento legal claro, estratégico y orientado a resultados.",
   ctaPrimary = { href: "#contacto", label: "Agendar consulta" },
   ctaSecondary = { href: "#areas", label: "Áreas de práctica" },
-  bgImage = "/hero-bg.jpg", // poné tu imagen en /public
+  bgImage = "/hero-bg.jpg",
 }) {
   return (
     <section
@@ -15,8 +15,8 @@ export default function Hero({
       aria-label="Portada del sitio — Estudio Jurídico"
       className="
         relative isolate flex items-center
-        min-h-[72vh] sm:min-h-[78vh] lg:min-h-[86vh]
-        pt-24 sm:pt-28 lg:pt-32 /* separa del navbar fijo */
+        min-h-[82vh] sm:min-h-[78vh] lg:min-h-[86vh]
+        pt-24 pb-24 sm:pt-28 lg:pt-32
         overflow-hidden scroll-mt-24
       "
     >
@@ -37,7 +37,7 @@ export default function Hero({
       </div>
 
       {/* Contenido */}
-      <div className="mx-auto w-full max-w-7xl px-6">
+      <div className="mx-auto w-full max-w-7xl px-6 mt-[40px]">
         <div className="max-w-3xl">
           {/* Chip superior */}
           <span className="mb-5 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-white ring-1 ring-white/20 backdrop-blur">
@@ -45,7 +45,7 @@ export default function Hero({
             Defensa y asesoría integral
           </span>
 
-          <h1 className="text-balance text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white drop-shadow">
+          <h1 className="text-balance text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#7D0000] drop-shadow">
             {title}
           </h1>
 
@@ -84,8 +84,8 @@ export default function Hero({
 
           {/* Badges de confianza */}
           <dl className="mt-10 grid max-w-xl grid-cols-1 gap-6 text-white/85 sm:grid-cols-3">
-            <Badge title="+10 años" desc="de experiencia" />
-            <Badge title="Respuesta 24–48h" desc="casos nuevos" />
+            <Badge title="+200 casos" desc="de experiencia" />
+            <Badge title="Respuesta rapida" desc="casos nuevos" />
             <Badge title="Atención federal" desc="AR 🇦🇷" />
           </dl>
         </div>
@@ -98,7 +98,7 @@ export default function Hero({
 
 function Badge({ title, desc }) {
   return (
-    <div className="rounded-2xl border border-white/15 bg-white/5 p-4 text-center backdrop-blur shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
+    <div className="rounded-2xl border border-white/15 bg-white/5 p-1 text-center backdrop-blur shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
       <div className="text-lg font-semibold text-white">{title}</div>
       <div className="text-sm text-white/75">{desc}</div>
     </div>
