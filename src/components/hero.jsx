@@ -45,7 +45,7 @@ export default function Hero({
             Defensa y asesoría integral
           </span>
 
-          <h1 className="text-balance text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#7D0000] drop-shadow">
+          <h1 className="text-balance text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white drop-shadow">
             {title}
           </h1>
 
