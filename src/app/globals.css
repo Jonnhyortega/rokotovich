@@ -1,15 +1,24 @@
 @import "tailwindcss";
 
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --first-blue: #0f2a4a;
+  --first-blue: #0a2342;
+  --secondary-blue: #1d4e89;
+  --grey: #e5e7eb;
+  --white: #ffffff;
+  --gold: #c8a24d;
+
 }
 
 
 body {
   background: var(--background);
-  color: var(--foreground);
   width: 100%;
   /* border: 1px solid green;
   *{border:1px solid red;} */
