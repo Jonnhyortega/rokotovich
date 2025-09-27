@@ -23,7 +23,7 @@ export default function Hero({
       {/* Fondo */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src={bgImage}
+          src="https://res.cloudinary.com/do87isqjr/image/upload/v1758038746/pexels-ekaterina-bolovtsova-6077797_gwaqd9.jpg"
           alt="Fondo institucional del estudio jurídico"
           fill
           priority
@@ -84,7 +84,7 @@ export default function Hero({
 
           {/* Badges de confianza */}
           <dl className="mt-10 grid max-w-xl grid-cols-1 gap-6 text-white/85 sm:grid-cols-3">
-            <Badge title="+200 casos" desc="de experiencia" />
+            <Badge title="+1000 casos" desc="de experiencia" />
             <Badge title="Respuesta rapida" desc="casos nuevos" />
             <Badge title="Atención federal" desc="AR 🇦🇷" />
           </dl>

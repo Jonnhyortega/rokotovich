@@ -91,7 +91,7 @@ export default function Contact() {
           </h2>
           <p className="mt-3 text-slate-600">
             Contanos tu caso. Nuestro equipo responde dentro de las próximas
-            24–48 horas hábiles.
+            24 – 48 horas hábiles.
           </p>
 
           <ul className="mt-8 space-y-5">
@@ -102,7 +102,7 @@ export default function Contact() {
                   Teléfono / WhatsApp
                 </div>
                 <Link
-                  href="https://wa.me/5491112345678"
+                  href="https://wa.me/5491155782731"
                   target="_blank"
                   className="text-[var(--first-blue,#0f3e74)] underline decoration-transparent underline-offset-4 transition hover:decoration-[var(--first-blue,#0f3e74)]"
                 >
@@ -116,10 +116,10 @@ export default function Contact() {
               <div>
                 <div className="font-semibold text-slate-900">Email</div>
                 <a
-                  href="mailto:consulta@rokotovichlegal.com"
+                  href="mailto:estudiorokotovich@gmail.com"
                   className="text-[var(--first-blue,#0f3e74)] underline decoration-transparent underline-offset-4 transition hover:decoration-[var(--first-blue,#0f3e74)]"
                 >
-                  consulta@rokotovichlegal.com
+                  estudiorokotovich@gmail.com
                 </a>
               </div>
             </li>
@@ -128,9 +128,9 @@ export default function Contact() {
               <MapPinIcon className="mt-1 h-5 w-5 text-[var(--first-blue,#0f3e74)]" />
               <div>
                 <div className="font-semibold text-slate-900">Estudio</div>
-                <p className="text-slate-600">
-                  Av. Principal 1234, Piso 7 • CABA
-                </p>
+                <a href="https://maps.app.goo.gl/NCcwfz84JGzcBDYZ7" target="_blank" className="text-slate-600">
+                Av. Leandro N. Alem 424 Piso 6 Departamento 602 •  Ciudad Autónoma de Buenos Aires
+                </a>
                 <p className="text-slate-500 text-sm">Atención con turno</p>
               </div>
             </li>
