@@ -47,7 +47,8 @@ export default function Footer() {
 
       {/* Línea final */}
       <div className="border-t border-white/10 mt-6 py-4 text-center text-xs text-gray-400">
-        © {new Date().getFullYear()} Rokotovich Estudio Jurídico. Todos los derechos reservados.
+        © {new Date().getFullYear()} Rokotovich Estudio Jurídico. Todos los derechos reservados. <br />
+        <a href="https://www.astralvisionestudio.com" target="_blank<">Desarrollado por Astral Vision</a>
       </div>
     </footer>
   );

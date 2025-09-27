@@ -80,7 +80,7 @@ export default function TeamCarousel({ members = defaultMembers, className = "" 
   };
 
   return (
-    <section className={`relative ${className}`}>
+    <section className={`relative ${className} py-8`}>
       
       <h2 className="text-3xl font-extrabold tracking-tight text-slate-900 text-center w-full">Nuestro Equipo</h2>
       <div className="mx-auto max-w-6xl px-4 mt-6 mb-6">
