@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -H localhost -p 4000",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "animate.css": "^4.1.1",
+    "heroicons": "^2.2.0",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",

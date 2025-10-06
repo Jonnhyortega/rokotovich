@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 *{
-  box-sizing: border-box;
+  box-sizing: border-box;  
+  scroll-behavior: smooth;
+
 }
 
 :root {
@@ -22,5 +24,4 @@ body {
   /* border: 1px solid green;
   *{border:1px solid red;} */
 
-  scroll-behavior: smooth;
 }

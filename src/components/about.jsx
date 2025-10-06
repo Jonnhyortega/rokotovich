@@ -10,6 +10,7 @@ export default function About() {
     >
 
         
+      <div className="mx-auto max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-[var(--grey)]">
         {/* Texto */}
         <div className="p-5">
           <h2
@@ -37,8 +38,6 @@ export default function About() {
           </a>
         </div>
 
-
-      <div className="mx-auto max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-[var(--grey)]">
         {/* Imagen institucional */}
         <div className="relative w-full h-80 lg:h-[450px] bg-[var(--first-blue)]">
           <Image
